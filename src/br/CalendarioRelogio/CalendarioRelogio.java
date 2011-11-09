@@ -34,10 +34,13 @@ public class CalendarioRelogio extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         try {
+        	
         	player = new MediaPlayer();
-			player.setDataSource("/data/local/tmp/rain_1.mp3");		
-			player.prepare();
-			player.start();	
+        	player.setDataSource("/sdcard/rain_1.mp3");	
+			//player.setDataSource("/data/local/tmp/rain_1.mp3");		
+			player.prepare();	
+			player.start();
+			player.setLooping(true);
 		} catch (Exception e) {
 			Log.e(Erro, e.getMessage(),e);
 		}
