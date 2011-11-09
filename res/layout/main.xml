@@ -2,14 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/chuva">
+    android:background="@drawable/android">
     <LinearLayout android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-        <Button android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_set_date"
-            android:layout_weight="2" />
         <Button android:layout_width="fill_parent"
             android:id="@+id/btn_set_time"
             android:layout_height="wrap_content"

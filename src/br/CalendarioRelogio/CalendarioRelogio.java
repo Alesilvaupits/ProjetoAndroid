@@ -45,13 +45,13 @@ public class CalendarioRelogio extends Activity {
 			Log.e(Erro, e.getMessage(),e);
 		}
 		
-        datePicker = (Button) findViewById(R.id.btn_set_date);
-        datePicker.setText(dateFormatter.format(dateTime.getTime()));
-        datePicker.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                showDialog(DIALOG_DATE);
-            }
-        });
+       // datePicker = (Button) findViewById(R.id.btn_set_date);
+        //datePicker.setText(dateFormatter.format(dateTime.getTime()));
+        //datePicker.setOnClickListener(new View.OnClickListener() {
+          //  public void onClick(View v) {
+             //   showDialog(DIALOG_DATE);
+           // }
+       // });
  
         timePicker = (Button) findViewById(R.id.btn_set_time);
         timePicker.setText(timeFormatter.format(dateTime.getTime()));
